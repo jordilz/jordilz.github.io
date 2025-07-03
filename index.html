@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurante Chino</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar fixed-top"
+        style="background-color: rgba(0, 0, 0, 0.5); z-index: 1030"
+      >
+        <div
+          class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-md-between"
+        >
+          <a class="navbar-brand text-white mx-auto mx-md-0" href="index.html">
+            <strong>🍚RESTAURANTE CHINO FELIZ🍚</strong>
+          </a>
+          <span class="navbar-text d-inline text-white mt-2 mt-md-0">
+            <strong>Teléfono:</strong>
+            <a href="tel:937954750" class="d-inline d-md-none text-white">
+              <p class="text-white d-inline">937954750</p>
+            </a>
+            <p class="d-none d-md-inline text-white">937954750</p>
+          </span>
+        </div>
+      </nav>
+    </header>
+    <main class="text-white text-center">
+      <div class="position-relative" style="height: 70vh; width: 100vw">
+        <!-- Imagen de fondo -->
+        <div class="position-absolute top-0 start-0 w-100 h-100">
+          <div
+            style="
+              background-image: url('img/fondo1.jpg');
+              background-size: cover;
+              background-position: center;
+              width: 100%;
+              height: 100%;
+            "
+          ></div>
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.4);
+            "
+          ></div>
+        </div>
+        <!-- Contenido encima de la imagen -->
+        <div
+          class="position-relative d-flex flex-column justify-content-center align-items-center h-100"
+        >
+          <h1 class="display-4 fw-bold mb-1">
+            <strong>🍚RESTAURANTE CHINO FELIZ🍚</strong>
+          </h1>
+          <p class="mb-3 fw-bold">
+            HORARIO:<br />
+            LUNES, MIÉRCOLES, JUEVES, VIERNES, SÁBADO Y DOMINGO: 13:00 - 16:00 Y
+            20:00 - 23:00<br />
+            MARTES: CERRADO
+          </p>
+          <div class="d-inline">
+            <a href="#menus" class="btn btn-danger me-md-4 fw-bold">MENÚS</a>
+            <a href="#carta" class="btn btn-danger me-md-4 fw-bold">CARTA</a>
+            <a href="#bebidas" class="btn btn-danger fw-bold">BEBIDAS</a>
+          </div>
+        </div>
+      </div>
+      <!-- Menús -->
+      <h2 id="menus" class="apartado text-danger fw-bold text-center mb-5 p-3">
+        MENÚS
+      </h2>
+      <div class="container d-flex justify-content-center gap-4 flex-wrap">
+        <!-- Menú mediodía -->
+        <ul
+          class="list-group text-center"
+          style="max-width: 600px; width: 100%; flex: 1"
+        >
+          <h2 class="text-danger fw-bold text-center">MENÚ MEDIODÍA</h2>
+          <p class="text-dark">(De lunes a viernes excepto festivos)</p>
+          <p class="text-danger fw-bold text-center mb-5">
+            * El menú de mediodía no se sirve a domicilio. Si vienes a recoger,
+            el menú no incluye postre.
+          </p>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Primer plato</h5>
+            <p class="mb-0">Ensalada China</p>
+            <p class="mb-0">Rollo de Primavera</p>
+            <p class="mb-0">Wan-tun frito</p>
+            <p class="mb-0">Sopa agri-picante</p>
+            <p class="mb-0">Sopa de pollo con fideos</p>
+            <p class="mb-0">Pan Chino</p>
+            <p class="mb-0">Kuo Tie frito</p>
+          </li>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Segundo plato</h5>
+            <p class="mb-0">Arroz frito tres delicias</p>
+            <p class="mb-0">Arroz frito yan zhou</p>
+            <p class="mb-0">Arroz Alex (pollo y huevo)</p>
+            <p class="mb-0">Arroz frito estilo cantonés</p>
+            <p class="mb-0">Tallarines fritos tres delicias</p>
+            <p class="mb-0">Fideos fritos tres delicias</p>
+          </li>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Tercer plato</h5>
+            <p class="mb-0">Pollo con almendras</p>
+            <p class="mb-0">Pollo con salsa limón</p>
+            <p class="mb-0">Pollo con champiñones</p>
+            <p class="mb-0">Bolas de pollo frito</p>
+            <p class="mb-0">Ternera con salsa de ostra</p>
+            <p class="mb-0">Ternera con salsa picante</p>
+            <p class="mb-0">Ternera con patatas fritas</p>
+            <p class="mb-0">Ternera con bambú y setas chinas</p>
+            <p class="mb-0">Gambas con verdura</p>
+            <p class="mb-0">Langostinos rebozados</p>
+            <p class="mb-0">Pato con naranja</p>
+            <p class="mb-0">Pato yan zhou (ajo y picante)</p>
+            <p class="mb-0">Pollo o ternera hierro laminado</p>
+          </li>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Bebida</h5>
+            <p class="mb-0">
+              copa de vino de la casa, Cerveza Estrella, 1/2 agua, refresco
+              <br />
+              <strong class="text-danger"
+                >(NESTEA Y AQUARIUS no incluidos)</strong
+              >
+            </p>
+          </li>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Postre o café</h5>
+            <p class="mb-0">
+              Bola de helado, lichis, flan, flan con nata, piña, macedonia o
+              melecotón en almíbar
+            </p>
+          </li>
+          <li class="list-group-item fw-bold">Precio: 13,95 €</li>
+        </ul>
+        <!-- Menús especiales -->
+        <ul
+          class="list-group text-center mb-5"
+          style="max-width: 600px; width: 100%; flex: 1"
+        >
+          <h2 class="text-danger fw-bold text-center">MENÚS ESPECIALES</h2>
+          <p class="text-danger">
+            * Los menús especiales no incluyen bebidas ni postres. <br />
+          </p>
+          <p class="text-danger fw-bold text-center mb-5">
+            Se permiten hasta 2 cambios por menú; dependiendo del cambio, podría
+            aplicarse un suplemento.
+          </p>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Menú para 2 personas</h5>
+            <p class="mb-0">1 Ensalada China</p>
+            <p class="mb-0">2 Rollo de Primavera</p>
+            <p class="mb-0">1 Arroz tres delicias</p>
+            <p class="mb-0">1 Ternera con salsa de ostra</p>
+            <p class="mb-0">1 Pollo con almendras</p>
+          </li>
+          <li class="list-group-item fw-bold">Precio: 29,50 €</li>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Menú para 3 personas</h5>
+            <p class="mb-0">1 Ensalada China</p>
+            <p class="mb-0">3 Rollo de Primavera</p>
+            <p class="mb-0">2 Arroz tres delicias</p>
+            <p class="mb-0">1 Ternera con salsa de ostra</p>
+            <p class="mb-0">1 Pollo con almendras</p>
+            <p class="mb-0">1 cerdo agridulce</p>
+          </li>
+          <li class="list-group-item fw-bold">Precio: 44,95 €</li>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Menú para 4 personas</h5>
+            <p class="mb-0">2 Ensalada China</p>
+            <p class="mb-0">4 Rollo de Primavera</p>
+            <p class="mb-0">2 Arroz tres delicias</p>
+            <p class="mb-0">1 Ternera con salsa de ostra</p>
+            <p class="mb-0">1 Pollo con almendras</p>
+            <p class="mb-0">1 cerdo agridulce</p>
+            <p class="mb-0">1 bolas de pollo</p>
+          </li>
+          <li class="list-group-item fw-bold">Precio: 59,95 €</li>
+          <li class="list-group-item">
+            <h5 class="fw-bold mb-1">Menú para 5 personas</h5>
+            <p class="mb-0">2 Ensalada China</p>
+            <p class="mb-0">5 Rollo de Primavera</p>
+            <p class="mb-0">2 Arroz tres delicias</p>
+            <p class="mb-0">1 Ternera con salsa de ostra</p>
+            <p class="mb-0">1 Pollo con almendras</p>
+            <p class="mb-0">1 cerdo agridulce</p>
+            <p class="mb-0">1 bolas de pollo</p>
+            <p class="mb-0">1 Familia feliz</p>
+          </li>
+          <li class="list-group-item fw-bold">Precio: 70,95 €</li>
+        </ul>
+      </div>
+      <!-- Carta -->
+      <h2 id="carta" class="apartado mb-1 p-3 text-danger fw-bold">CARTA</h2>
+      <section class="container my-5 text-dark">
+        <div class="row">
+          <!-- Entrantes -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">ENTRANTES</h3>
+            <p class="d-flex justify-content-between">
+              <span>Ensalada china</span><span>4,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ensalada de algas WaKame</span><span>5,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gyozas(4u)</span><span>4,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Triángulo de Curry Vegetal, (8u)</span><span>4,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Rollo de Primavera Vegetal</span><span>1,85€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Rollo de Primavera</span><span>2,00€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Wan-Tun Frito</span><span>3,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pan de Gambas</span><span>3,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Rollito vietnamitas(2u)</span><span>4,10€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Rollo con ensalada china</span><span>6,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Brochetas de pollo teriyaki</span><span>6,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pan chino</span><span>2,00€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Raviolis a la plancha</span><span>6,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Patatas fritas</span><span>3,75€</span>
+            </p>
+          </div>
+          <!-- Sopas -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">SOPAS</h3>
+            <p class="d-flex justify-content-between">
+              <span>Sopa de aleta de tiburón</span><span>4,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sopa agri-picante</span><span>4,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sopa de pollo con fideos</span><span>4,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sopa de pollo con champiñones</span><span>4,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sopa de maiz con cangrejo</span><span>4,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sopa de marisco</span><span>5,95€</span>
+            </p>
+          </div>
+          <!-- Tallarines y Fideos -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">TALLARINES Y FIDEOS</h3>
+            <p class="d-flex justify-content-between">
+              <span>Fideos indonesia (curry y picante)</span><span>6,85€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Fideos estilo tailandés</span><span>6,85€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Fideos fritos con tres delicias</span><span>6,85€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Tallarines fritos con tres delicias</span><span>6,85€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Tallarines indonesia (curry y picante)</span
+              ><span>6,85€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Tallarines especial a la plancha</span><span>6,85€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Udon fideos con langostinos</span><span>6,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Udon fideos con pollo (curry)</span><span>6,50€</span>
+            </p>
+          </div>
+          <!-- Arroz -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">ARROZ</h3>
+            <p class="d-flex justify-content-between">
+              <span>Arroz frito especial pato</span><span>6,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz frito tres delicias</span><span>5,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz frito con gambas</span><span>5,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz frito con curry</span><span>5,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz frito estilo cantonés</span><span>5,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz con ternera y salsa curry</span><span>7,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz blanco</span><span>3,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz Yan zhou (picante)</span><span>5,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz alex (pollo y huevo)</span><span>5,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Arroz con pollo y salsa curry</span><span>7,50€</span>
+            </p>
+          </div>
+          <!-- Marisco -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">MARISCO</h3>
+            <p class="d-flex justify-content-between">
+              <span>Calamares a la romana</span><span>7,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Chocos fritos</span><span>8,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Calamares con bambú setas chinas</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sepia a la plancha con patatas</span><span>10,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sepia con salsa picante</span><span>10,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Calamares con salsa picante</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gambas con salsa picante</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gambas con bambú y setas chinas</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gambas agridulce</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Langositnos rebozados</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gambas con verduras</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gambas en hierro laminado</span><span>9,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gambas con sal y pimienta</span><span>9,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gambas tempura</span><span>9,95€</span>
+            </p>
+          </div>
+          <!-- Ternera -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">TERNERA</h3>
+            <p class="d-flex justify-content-between">
+              <span>Chop-suey de ternera</span><span>8,60€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con bambú y setas chinas</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con salsa picante</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con salsa de curry</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con champiñones</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con pimiento</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con salsa de ostra</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con cebolla</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con patatas salteadas</span><span>8,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera frita especial Hong Kong</span><span>9,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ternera con ajo a la plancha</span><span>9,95€</span>
+            </p>
+          </div>
+          <!-- Cerdo -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">CERDO</h3>
+            <p class="d-flex justify-content-between">
+              <span>Costilla agripicante</span><span>8,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Costilla asada</span><span>9,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Costilla especiales Hong Kong</span><span>9,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Cerdo agridulce</span><span>7,95€</span>
+            </p>
+          </div>
+          <!-- Pollo -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">POLLO</h3>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con champiñones</span><span>7,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con sal y pimienta</span><span>8,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con salsa de curry</span><span>7,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con salsa picante</span><span>7,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con almendras</span><span>7,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Chop-suey de pollo</span><span>7,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo frito con naranja</span><span>8,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con salsa limón</span><span>7,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con bambú y setas chinas</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con piña</span><span>7,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Bolas de pollo frito</span><span>7,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pechuga de pollo con patatas fritas</span><span>8,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo en hierro laminado</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con patatas salteadas</span><span>7,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo agridulce</span><span>7,85€</span>
+            </p>
+          </div>
+          <!-- Pato -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">PATO</h3>
+            <p class="d-flex justify-content-between">
+              <span>Pato asado</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pato con piña</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pato con naranja</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pato yan zhou (ajo y picante)</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pato en hierro laminado</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pato Pekin</span><span>14,95€</span>
+            </p>
+          </div>
+          <!-- Platos especiales -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">Platos especiales</h3>
+            <p class="d-flex justify-content-between">
+              <span>Ternera en hierro laminado</span><span>9,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pechuga de pollo frito con almendras</span
+              ><span>9,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Gambas fritas con almendras</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pollo con nueces</span><span>9,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Pato con bambú y setas chinas</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Langostinos a la plancha</span><span>10,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Familia feliz</span><span>10,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ku-bak tres delicias</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>ku-bak con gambas</span><span>9,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Ancas de rana con sal y pimienta</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Nugets de pollo con patatas</span><span>6,95€</span>
+            </p>
+          </div>
+          <!-- Verduras -->
+          <div class="col-12 col-lg-3 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">VERDURAS</h3>
+            <p class="d-flex justify-content-between">
+              <span>Chop-suey de siempre</span><span>5,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Bambú y setas chinas salteadas</span><span>5,20€</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bebidas -->
+      <h2 id="bebidas" class="apartado mb-1 p-3 text-danger fw-bold">BEBIDAS</h2>
+      <section class="container my-5 text-dark">
+        <div class="row">
+          <!-- Bebidas -->
+          <div class="col-12 col-md-4 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">BEBIDAS</h3>
+            <p class="d-flex justify-content-between">
+              <span>Cerveza china</span><span>2,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Cerveza lata</span><span>2,00€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Cerveza estrella</span><span>2,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Cerveza Voll Damm </span><span>2,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Cerveza china</span><span>2,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Cerveza Quinto</span><span>1,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Tónica</span><span>2,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Bitter-kas</span><span>2,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Coca-cola </span><span>2,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Coca-cola zero</span><span>2,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>1/2 Gaseosa</span><span>2,00€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Fanta Limón o naranja</span><span>2,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Trinaranja</span><span>2,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Nestea</span><span>2,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Aquarius</span><span>2,75€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>1/2 Agua</span><span>2,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Agua G</span><span>2,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Vichy G</span><span>3,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>1/2 Vichy</span><span>2,50€</span>
+            </p>
+          </div>
+          <!-- VINO TINTO -->
+          <div class="col-12 col-md-4 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">VINO TINTO</h3>
+            <p class="d-flex justify-content-between">
+              <span>Vino de la casa</span><span>6,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>San Asensio</span><span>8,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Campo Viejo</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sangre de Toro</span><span>11,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>René Barbier</span><span>9,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Lambrusco</span><span>7,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Marqués de Cáceres</span><span>15,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>El Coto</span><span>13,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sangría de vino</span><span>10,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Sangría de cava</span><span>13,50€</span>
+            </p>
+            <h3 class="text-warning fw-semibold mb-2 mt-4">VINO BLANCO</h3>
+            <p class="d-flex justify-content-between">
+              <span>Vino de la casa</span><span>6,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Viña Sol</span><span>12,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Blanco Pescador</span><span>10,95€</span>
+            </p>
+          </div>
+          <!-- VINO ROSADO -->
+          <div class="col-12 col-md-4 mb-4">
+            <h3 class="text-warning fw-semibold mb-2">VINO ROSADO</h3>
+            <p class="d-flex justify-content-between">
+              <span>Vino de la casa</span><span>6,50€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>René Barbier rosado</span><span>9,20€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Lambrusco</span><span>7,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Torres Rosado</span><span>10,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Mateu Rosado</span><span>10,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Freixenet</span><span>12,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Codorniu</span><span>13,95€</span>
+            </p>
+            <p class="d-flex justify-content-between">
+              <span>Jaume serrat brut</span><span>9,95€</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Mapa -->
+      <div class="mt-3 mb-3">
+        <h2 class="apartado mb-1 p-3 text-danger fw-bold">NUESTRA UBICACIÓN</h2>
+        <div class="container">
+          <p class="text-dark">
+            Estamos en Riera Gavarra, 74, 08360 Canet de Mar, Barcelona. Puedes
+            visitarnos o hacer tu pedido a domicilio llamando al
+            <a href="tel:937954750" class="text-danger">937954750</a>.
+          </p>
+        </div>
+        <div style="width: 100%">
+          <iframe
+            width="100%"
+            height="300"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=riera%20gavarra%2074+(Restaurante%20Chino%20Feliz)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
