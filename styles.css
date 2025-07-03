@@ -1,0 +1,17 @@
+:root{
+    --color-apartados:rgba(255, 0, 0, 0.2);
+}
+.apartado{
+    background-color: var(--color-apartados);
+}
+/*carta*/ 
+p.d-flex {
+  margin-bottom: 0.5rem;
+}
+
+p.d-flex span:last-child {
+  width: 50px;
+  text-align: right;
+  font-weight: 600;
+  color: #dc3545; /* rojo */
+}
